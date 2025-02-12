@@ -11,11 +11,10 @@
 2. `pip freeze > requirements.txt`
 
 
-
 ## Bundle database and app images and run both as containers
 
     docker compose --file docker-compose.yml up --build -d
 
-## Bring containers down
+## To stop and remove all containers, networks, and volumes:
 
-    docker compose down -v
+    docker compose down --volumes --remove-orphans
