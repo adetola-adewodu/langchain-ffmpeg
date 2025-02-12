@@ -5,9 +5,10 @@
 3. `python -m pip install --upgrade pip`
 4. `pip install -r requirements.txt`
 
+## If there is an error installing packages, here are the initial packages:
 
-4. `pip install ffmpeg-python psycopg2-binary sqlalchemy langchain`
-5. `pip freeze > requirements.txt`
+1. `pip install ffmpeg-python psycopg2-binary sqlalchemy langchain`
+2. `pip freeze > requirements.txt`
 
 
 
