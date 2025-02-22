@@ -1,3 +1,7 @@
 ffmpeg-python
 psycopg2-binary
 langchain
+torch
+sqlcoder 
+transformers 
+langchain-community
