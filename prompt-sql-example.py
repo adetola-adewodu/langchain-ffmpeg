@@ -1,5 +1,5 @@
 from transformers import pipeline
-from langchain.sql_database import SQLDatabase
+from langchain_community.utilities.sql_database import SQLDatabase
 
 model_name = "defog/sqlcoder"  # SQL-specific LLM
 sql_pipeline = pipeline("text-generation", model=model_name, device="cpu")
